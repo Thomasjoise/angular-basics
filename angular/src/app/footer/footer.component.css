@@ -3,11 +3,16 @@
     margin-top: 8px;
     display: flex;
     align-items: center;
+    align-content: center;
     line-height: 20px;
+    background-color: blanchedalmond;
   }
 
 .footer a {
     display: flex;
+    align-items: center;
+  }
+p{
     align-items: center;
   }
 
