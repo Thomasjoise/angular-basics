@@ -23,3 +23,8 @@ new componets are created inside this app folders
 
 angular application consist of different components and all other components can be nested inside the app.components
 app components can have propertiess and methods and can use it in the html
+
+## data binding
+1.string interpolation 
+2.property binding 
+3. 
