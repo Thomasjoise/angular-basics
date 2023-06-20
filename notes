@@ -1,0 +1,25 @@
+npm install -g @angular/cli
+ng version
+ng new angularbasics
+D:\Thomas\WS\angular\Angularbasicss>ng serve
+
+
+component.ts is the main component file contains the decorator class where we add the selector
+<app-root></app-root> is the selctor in component.ts which contains the component html and css files
+
+#files andf folders in angular
+1.node modules - 3rd party libraries not required in production only in development 
+2.src - all the source code
+every angular project should contain one component and one module files 
+new componets are created inside this app folders
+3.assets - static assets imd expect
+4.environment - one productoion file and one development files conatins database credentiales and server ip addresses
+5.main.ts files - first file to run, bootstaps the mainn module to this project here - app module
+6.polyfills - contains script to run angular
+7.editorconfig - conatins common styling standers to be used by developers
+8.gitignore contains - fields and folders that should be ignored while adding the source into github
+9.angular.jason - contains all the configuration files
+10.package.jason - standard configuration all the node files have this file also have dependencies
+
+angular application consist of different components and all other components can be nested inside the app.components
+app components can have propertiess and methods and can use it in the html
