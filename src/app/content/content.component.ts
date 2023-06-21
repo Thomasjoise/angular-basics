@@ -11,5 +11,8 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
- message='this is data binding method'
+ message='This is a data binding method';
+ card(){
+  return 'i donoo what this is for';
+ }
 }

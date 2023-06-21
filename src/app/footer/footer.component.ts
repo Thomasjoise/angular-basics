@@ -12,4 +12,6 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+displayterminal:boolean=true;
+
 }
