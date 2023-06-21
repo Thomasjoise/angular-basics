@@ -1,0 +1,21 @@
+/* Styling for the notification bar */
+.notification-bar {
+    background-color: #f44336; /* Red background color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the content */
+    text-align: center; /* Center align the text */
+}
+
+/* Styling for the close button */
+.notification-bar .close-button {
+    color: white; /* Text color */
+    float: right; /* Float the button to the right */
+    font-size: 20px; /* Font size of the button */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Styling for the content within the notification bar */
+.notification-bar .content {
+    margin-bottom: 10px; /* Margin at the bottom of the content */
+}
