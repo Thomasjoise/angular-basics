@@ -12,4 +12,7 @@ export class NotificationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  notificationmsg(){
+    return 'This is a notification message.';
+  }
 }

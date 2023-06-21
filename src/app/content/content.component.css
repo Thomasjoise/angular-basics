@@ -29,24 +29,26 @@
     align-items: center;
     transition: all 0.2s ease-in-out;
     line-height: 24px;
+    /* background-image:url(src/assets/Leaf_Wallpaper.jpg); */
   }
 
-  svg#rocket {
-    align-items: center;
-    width: 80px;
-    position: absolute;
-    left: -10px;
-    top: -24px;
+  .background-image {
+    background-image: url("src/assets/IMG_2.jpg");
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Scale the image to cover the entire element */
   }
+  
+  .content.image {
+    width: 360px; /* Adjust the width as needed */
+    height: auto; /* Let the height adjust proportionally based on the image */
+  }
+  
+  .content.image img {
+    display: block; /* Make the image a block element */
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: auto; /* Let the height adjust proportionally based on the width */
+  }  
 
-  svg#rocket-smoke {
-    height: calc(100vh - 95px);
-    position: absolute;
-    top: 10px;
-    right: 180px;
-    z-index: -10;
-  }
- 
   .circle-link {
     height: 40px;
     width: 40px;

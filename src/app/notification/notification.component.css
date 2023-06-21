@@ -1,7 +1,7 @@
 /* Styling for the notification bar */
 .notification-bar {
-    background-color: #f44336; /* Red background color */
-    color: white; /* Text color */
+    background-color: #d6c8ec; /* Red background color */
+    color: rgb(0, 0, 0); /* Text color */
     padding: 10px; /* Padding around the content */
     text-align: center; /* Center align the text */
 }
@@ -19,3 +19,13 @@
 .notification-bar .content {
     margin-bottom: 10px; /* Margin at the bottom of the content */
 }
+.notification-bar.image {
+    width: 360px; /* Adjust the width as needed */
+    height: auto; /* Let the height adjust proportionally based on the image */
+}
+
+.notification-bar.image img {
+    display: block; /* Make the image a block element */
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: auto; /* Let the height adjust proportionally based on the width */
+}  

@@ -12,6 +12,6 @@ export class ToolbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toolbar:string = '--HDMI----HDMI--'
+  toolbar:string = '--HDMI----HDMI--';
 
 }
