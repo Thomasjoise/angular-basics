@@ -8,8 +8,10 @@
   background-color: #1976d2;
   color: white;
   font-weight: 600;
-  justify-content: center; /* Added line */
   align-items: center; /*Added line */
+  display: flex; /* Use flexbox for content alignment */
+  justify-content:space-evenly; /* Align content with space between */
+  align-items: center; /* Center content vertically */
 }
 
 .toolbar img {
@@ -18,22 +20,25 @@
 
 .toolbar p {
   /* text-align: center; Remove this line */
+  font-weight: 500;
+  font-size: large;
 }
 
+.toolbar-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
 
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 8px;
-  }
+.toolbar-links li:last-child {
+  margin-right: 1; /* Remove margin from the last link */
+}
 
-  .toolbar #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
+.toolbar-links a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underline */
+}
 
-  .toolbar #twitter-logo:hover,
-  .toolbar #youtube-logo:hover {
-    opacity: 0.8;
-  }
-
+.toolbar-links a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
   

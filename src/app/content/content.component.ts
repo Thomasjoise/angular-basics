@@ -12,7 +12,7 @@ export class ContentComponent implements OnInit {
   ngOnInit(): void {
   }
  message='This is a data binding method';
- card(){
-  return 'i donoo what this is for';
+ box(){
+  return 'this is a box ';
  }
 }
